@@ -1,4 +1,49 @@
 body {
     background-color: #f5f3ee;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #164A63;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 0px;
+    position: sticky;
+    top: 0;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline-block;
+    margin: 10px;
+}
+
+header a {
+    color: #F5F3EE;
+    text-decoration: none;
+}
+
+.title h1 {
+    display: flex;
+    justify-content: center;
+    margin: 75px;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+    font-family: "Merriweather", Georgia, serif;
+    color: #263238;
+}
+
+header img {
+    margin-right: 10px;
+}
+
+.main {
     margin: 20px;
 }
