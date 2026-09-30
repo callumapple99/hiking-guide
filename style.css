@@ -38,6 +38,7 @@ header a {
 h1, h2, h3, h4, h5, h6, p, li {
     font-family: "Merriweather", Georgia, serif;
     color: #263238;
+    margin: 20px;
 }
 
 header img {
@@ -46,4 +47,15 @@ header img {
 
 .main {
     margin: 20px;
+}
+
+em { 
+    font-family: "Merriweather", Georgia, serif;
+    color: grey;
+}
+
+.main h2 {
+    display: flex;
+    justify-content: center;
+    margin: 75px;
 }
