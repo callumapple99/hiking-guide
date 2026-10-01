@@ -35,7 +35,7 @@ header a {
     margin: 75px;
 }
 
-h1, h2, h3, h4, h5, h6, p, li {
+h1, h2, h3, h4, h5, h6, p, li, summary {
     font-family: "Merriweather", Georgia, serif;
     color: #263238;
     margin: 20px;
@@ -61,5 +61,17 @@ em {
 }
 
 .description {
-    margin-bottom: 75px;
+    margin-bottom: 40px;
+}
+
+summary {
+font-weight: bold;
+font-size: 1.17em;
+margin-left: 100px;
+}
+
+details {
+    margin: 20px;
+    border: 1px solid #ccc;
+    background-color: #f1ede6;
 }
