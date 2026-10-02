@@ -96,3 +96,23 @@ footer {
 footer p {
     color: #F5F3EE;
 }
+
+.images-banner-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #dfdad3;
+    padding: 10px;
+}
+
+.images-banner-images img {
+    width: 30%;
+    height: auto;
+}
+
+.images-banner {
+    gap: 20px;
+    background-color: #dfdad3;
+    padding: 20px;
+}
+
