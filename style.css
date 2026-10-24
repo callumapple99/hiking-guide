@@ -13,6 +13,7 @@ header {
     padding: 10px 10px 10px 0px;
     position: sticky;
     top: 0;
+    margin-bottom: 0px;
 }
 
 header ul {
@@ -39,7 +40,10 @@ header a {
 .title h1 {
     display: flex;
     justify-content: center;
-    margin: 75px;
+    background-color: #dfdad3;
+    height: 150px;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
 }
 
 h1, h2, h3, h4, h5, h6, p, li, summary {
@@ -115,4 +119,6 @@ footer p {
     background-color: #dfdad3;
     padding: 20px;
 }
+
+
 
